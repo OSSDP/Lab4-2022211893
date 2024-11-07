@@ -62,7 +62,7 @@ class Solution9 {
                 }
             }
         }
-        return true;
+       // return true;
     }
 
     private boolean dfs(int node, int color, int[] colors, List<Integer>[] graph) {
