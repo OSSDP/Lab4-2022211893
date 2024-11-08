@@ -40,7 +40,7 @@ import java.util.List;
 
 class Solution9 {
     public boolean possibleBipartition(int n, int[][] dislikes) {
-        List<Integer>[] graph = new List[n - 1];
+        List<Integer>[] graph = new List[n + 1];
         for (int i = 0; i <= n; i++) {
             graph[i] = new ArrayList<>();
         }
@@ -62,7 +62,7 @@ class Solution9 {
                 }
             }
         }
-       // return true;
+        return true;
     }
 
     private boolean dfs(int node, int color, int[] colors, List<Integer>[] graph) {
