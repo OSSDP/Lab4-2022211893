@@ -41,6 +41,7 @@ import java.util.List;
 class Solution9 {
     public boolean possibleBipartition(int n, int[][] dislikes) {
         List<Integer>[] graph = new List[n + 1];
+        //Jenknis-pr-lab
         for (int i = 0; i <= n; i++) {
             graph[i] = new ArrayList<>();
         }
